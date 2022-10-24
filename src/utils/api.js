@@ -2,5 +2,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: 'https://node-api-01.onrender.com'
+  baseURL: process.env.REACT_APP_API
 })
