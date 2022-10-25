@@ -2,5 +2,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: 'https://node-api-01.onrender.com'
+  baseURL: 'https://backend-pet-api-production.up.railway.app'
 })
